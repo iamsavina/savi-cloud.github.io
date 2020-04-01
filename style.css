@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: Roboto;
+}
+
+.navBar{
+    overflow: hidden;
+}
+
+.imgContainer{
+    margin:1vh;
+    float:left;
+}
+
+.imgContainer img{
+    width:70px;
+}
+
+.navBar .navLinks{
+    padding:12px 0px;
+    float:right;
+    display: block;
+}
+
+.navLinks a{
+    display:block;
+    float:left;
+    text-decoration: none;
+    color:#929292;
+    width:180px;
+    text-align: center;
+    font-size: 18px;
+    padding:12px 27px;
+    border-bottom:2px solid white;
+}
+
+.navLinks a:hover{
+    color: #0074d9;
+    border-bottom:2px solid #0074d9;
+}
+
+.navLinks a.active{
+    display:block;
+    float:left;
+    text-decoration: none;
+    color:#0074d9;
+    width:180px;
+    text-align:center;
+    font-size: 18px;
+    padding:12px 27px;
+    border-bottom:2px solid #0074d9;
+}
+
+.intro{
+    height:500px;
+    background-color:#f26d7d;
+}
+
+.intro .introText{
+    text-align: center;
+    color:white;
+}
+
+.intro .introText h1{
+    padding-top:150px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.introText .btnBlue{
+    padding:10px 18px;
+    border-radius: 5px;
+    background-color:#0074d9;
+    border:none;
+    color:white;
+}
+
+.btnBlue:hover{
+    border:2px solid white;
+}
